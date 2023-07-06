@@ -1,0 +1,8 @@
+version: "3"
+services:
+  http-proxy:
+    build: .
+    command: >
+      sh -c "python proxy_server.py"
+    volumes:
+      - .:/code
