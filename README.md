@@ -27,10 +27,10 @@ Build
   make build
 ```
 
-Start the container
+Run Tests
 
 ```bash
-  make up
+  make test
 ```
 
 Run the application
